@@ -73,11 +73,11 @@
         },
         "conditionMetadata": [
           {
-            "id": "d2bd44bf-5e54-4a1a-9689-860906c3bf19",
+            "id": "676e3c88-af66-42d7-b65d-4497bc64530b",
             "value": "1"
           },
           {
-            "id": "0b45d268-da6d-45df-a414-6070e54f3cb3",
+            "id": "bf2acf01-19f5-4c42-8ccc-a38e6fbb6fe7",
             "value": "2"
           }
         ]
@@ -101,11 +101,11 @@
         },
         "conditionMetadata": [
           {
-            "id": "3fa121b9-d06e-43bd-b42c-4393b1d8dc0b",
+            "id": "385dff25-1c6b-4732-ad0f-f0e2d7f5ec1e",
             "value": "1"
           },
           {
-            "id": "63e8357f-58a5-4c91-8e1d-d5da3d5f18bd",
+            "id": "39bc10a6-755b-4148-b514-5e951b0b1e5f",
             "value": "2"
           }
         ]
@@ -164,11 +164,11 @@
         },
         "conditionMetadata": [
           {
-            "id": "a5f1fb3d-0c63-4fa2-9d4c-1ee58721db60",
+            "id": "5b983193-3601-4e1c-a62f-ef54eab84b79",
             "value": "1"
           },
           {
-            "id": "7462425e-c13d-48af-a495-707a28609315",
+            "id": "c8f72998-f9fd-45fb-9172-381d15ec6a7e",
             "value": "2"
           }
         ]
@@ -180,7 +180,7 @@
         },
         "conditionMetadata": [
           {
-            "id": "c212477c-fbb5-4358-9d7c-2e9c21be30aa",
+            "id": "f80dd445-a199-46ce-aafa-aa82bed393ab",
             "value": "1"
           }
         ]
@@ -261,7 +261,7 @@
       }
     },
     "Annotations": [],
-    "name": "kafui-customer-queue-english",
+    "name": "interVision-customer-queue-english",
     "description": "",
     "type": "customerQueue",
     "status": "published",
@@ -869,7 +869,7 @@
     },
     {
       "Parameters": {
-        "Text": "<speak>\nHelp can be found on our website at, w w w dot kafui connect dot com.\n</speak>"
+        "Text": "<speak>\nHelp can be found on our website at, w w w dot interVision connect dot com.\n</speak>"
       },
       "Identifier": "414ba023-474a-4cd8-9802-1ddaabcfbcdf",
       "Type": "MessageParticipant",
