@@ -1,0 +1,765 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "84396f94-a259-413f-8c51-6d86b686f6ab",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 2488,
+      "y": -113.6
+    },
+    "ActionMetadata": {
+      "d0354306-95fa-412b-8d78-05ee6a49a229": {
+        "position": {
+          "x": 7857.6,
+          "y": 101.6
+        }
+      },
+      "b9f3c5bb-0008-4fd2-921f-6b526301841a": {
+        "position": {
+          "x": 4510.4,
+          "y": 116.8
+        }
+      },
+      "026869cd-4c68-48da-a546-42000fd10f3b": {
+        "position": {
+          "x": 2815.2,
+          "y": -136.8
+        }
+      },
+      "cb710505-04b8-4cfd-b842-0a3723152bbb": {
+        "position": {
+          "x": 3044.8,
+          "y": -141.6
+        },
+        "overrideConsoleVoice": false
+      },
+      "84396f94-a259-413f-8c51-6d86b686f6ab": {
+        "position": {
+          "x": 2588,
+          "y": -142.4
+        }
+      },
+      "3a36fc7b-f44f-4f8f-b259-5551d57a27a4": {
+        "position": {
+          "x": 5872.8,
+          "y": -117.6
+        },
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "2234bda4-9275-4b96-a0cc-8cda07127e9a": {
+        "position": {
+          "x": 6823.2,
+          "y": -352.8
+        }
+      },
+      "226746e0-de4b-4b72-acff-8d926f0b2150": {
+        "position": {
+          "x": 6156.8,
+          "y": -449.6
+        },
+        "parameters": {
+          "Attributes": {
+            "Account_Number": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "Account_Number"
+        ]
+      },
+      "8f9bc36f-859f-4804-9878-fc94e95fb47d": {
+        "position": {
+          "x": 6434.4,
+          "y": -520
+        },
+        "conditionMetadata": [
+          {
+            "id": "10359726-b98e-4bcb-8cbd-5b055317ccda",
+            "value": "1"
+          },
+          {
+            "id": "7ec04331-fd2b-49fe-affe-a6cdc40ce72a",
+            "value": "2"
+          }
+        ]
+      },
+      "e2215b9f-4ae3-4a9f-a87f-8f26c14ae659": {
+        "position": {
+          "x": 4868,
+          "y": 108
+        }
+      },
+      "ae84ddbb-3312-4be1-8bbb-644d68cfec13": {
+        "position": {
+          "x": 5841.6,
+          "y": -408.8
+        },
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "3b50d867-64e9-4f2d-bbb8-02c7b29996a5": {
+        "position": {
+          "x": 5285.6,
+          "y": 19.2
+        },
+        "conditionMetadata": [
+          {
+            "id": "faf1fac9-b17a-47de-a09a-a779d9b66895",
+            "value": "1"
+          },
+          {
+            "id": "8a5cf6c6-dee4-4817-aa43-aa630a3f7e29",
+            "value": "2"
+          }
+        ]
+      },
+      "922a1cc7-dee1-4f5c-8f0e-1cc5eb909119": {
+        "position": {
+          "x": 5162.4,
+          "y": -204.8
+        }
+      },
+      "88bdf6b8-bdae-42b3-9f51-579bd428c920": {
+        "position": {
+          "x": 3335.2,
+          "y": 365.6
+        }
+      },
+      "d84da5ec-4b5f-454d-b160-ca12e60061f1": {
+        "position": {
+          "x": 3979.2,
+          "y": -230.4
+        },
+        "dynamicParams": []
+      },
+      "2682f89f-a7c9-456c-8e16-bc903b7289b8": {
+        "position": {
+          "x": 4155.2,
+          "y": 105.6
+        },
+        "dynamicParams": []
+      },
+      "4bc86b50-4d80-4d30-88e8-10734f042c18": {
+        "position": {
+          "x": 3268,
+          "y": -144.8
+        },
+        "parameters": {
+          "EventHooks": {
+            "CustomerQueue": {
+              "displayName": "kafui-customer-queue-spanish"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "kafui-customer-queue-spanish",
+          "id": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/contact-flow/f59b1a0b-e618-4316-8d3c-393934a1e6d2"
+        },
+        "customerOrAgent": true
+      },
+      "1c293578-fbe2-4897-ae03-f1b1b7fd6de2": {
+        "position": {
+          "x": 3600,
+          "y": -143.2
+        },
+        "conditionMetadata": [
+          {
+            "id": "6a89aad6-01e2-439a-8f6a-06c7b93347b2",
+            "value": "1"
+          },
+          {
+            "id": "041fe28c-f100-4711-8713-1f99b5c265d7",
+            "value": "2"
+          }
+        ]
+      },
+      "f8a40e5a-3784-4416-8b6b-8326d6b6359a": {
+        "position": {
+          "x": 4411.2,
+          "y": -249.6
+        }
+      },
+      "fc63eb4f-778c-4936-8fd3-22589bb10135": {
+        "position": {
+          "x": 4920.8,
+          "y": -242.4
+        }
+      },
+      "7a8f6592-6ab7-4982-8be8-2976510588d3": {
+        "position": {
+          "x": 4677.6,
+          "y": -248.8
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "Tech-Support-Spanish"
+          }
+        },
+        "queue": {
+          "text": "Tech-Support-Spanish"
+        }
+      },
+      "20577223-76c4-4c45-9f2b-047267f002e8": {
+        "position": {
+          "x": 7580.8,
+          "y": 85.6
+        }
+      },
+      "70575968-2a09-4c4e-bdb9-e346146e97ea": {
+        "position": {
+          "x": 6835.2,
+          "y": -580
+        }
+      },
+      "3786cef7-cd96-48d6-aecd-432ac3115f19": {
+        "position": {
+          "x": 5868.8,
+          "y": 147.2
+        }
+      },
+      "df428e89-f201-429a-adf8-5531fed348d9": {
+        "position": {
+          "x": 7336,
+          "y": 88.8
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "Billing-Spanish"
+          }
+        },
+        "queue": {
+          "text": "Billing-Spanish"
+        }
+      }
+    },
+    "Annotations": [],
+    "name": "kafui-main-spanish",
+    "description": "",
+    "type": "contactFlow",
+    "status": "published",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "d0354306-95fa-412b-8d78-05ee6a49a229",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "SSML": "<speak>\nSi desea pagar su factura pendiente en línea utilizando su cuenta corriente o tarjeta de crédito, visite nuestro sitio web en \n<break time =\"200ms\"/>\nkafui connect punto com, <break time=\"300ms\"/> vaya a la pestaña Cobros, y seleccione pagar facturas. \n</speak>"
+      },
+      "Identifier": "b9f3c5bb-0008-4fd2-921f-6b526301841a",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "e2215b9f-4ae3-4a9f-a87f-8f26c14ae659",
+        "Errors": [
+          {
+            "NextAction": "e2215b9f-4ae3-4a9f-a87f-8f26c14ae659",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "026869cd-4c68-48da-a546-42000fd10f3b",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "cb710505-04b8-4cfd-b842-0a3723152bbb"
+      }
+    },
+    {
+      "Parameters": {
+        "TextToSpeechVoice": "Lucia"
+      },
+      "Identifier": "cb710505-04b8-4cfd-b842-0a3723152bbb",
+      "Type": "UpdateContactTextToSpeechVoice",
+      "Transitions": {
+        "NextAction": "4bc86b50-4d80-4d30-88e8-10734f042c18"
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ]
+        }
+      },
+      "Identifier": "84396f94-a259-413f-8c51-6d86b686f6ab",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "026869cd-4c68-48da-a546-42000fd10f3b"
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "Text": "<speak>Introduzca su número de cuenta.</speak>",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "20"
+          }
+        }
+      },
+      "Identifier": "3a36fc7b-f44f-4f8f-b259-5551d57a27a4",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "226746e0-de4b-4b72-acff-8d926f0b2150",
+        "Errors": [
+          {
+            "NextAction": "226746e0-de4b-4b72-acff-8d926f0b2150",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "3"
+      },
+      "Identifier": "2234bda4-9275-4b96-a0cc-8cda07127e9a",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "3a36fc7b-f44f-4f8f-b259-5551d57a27a4",
+        "Conditions": [
+          {
+            "NextAction": "3a36fc7b-f44f-4f8f-b259-5551d57a27a4",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "3a36fc7b-f44f-4f8f-b259-5551d57a27a4",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Account_Number": "$.StoredCustomerInput"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "226746e0-de4b-4b72-acff-8d926f0b2150",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "8f9bc36f-859f-4804-9878-fc94e95fb47d",
+        "Errors": [
+          {
+            "NextAction": "8f9bc36f-859f-4804-9878-fc94e95fb47d",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "<speak>Ha introducido,<prosody rate=\"slow\"><say-as interpret-as=\"characters\">$.Attributes.Account_Number</say-as>\n</prosody>,\nSi es correcto, pulse 1.\nEn caso contrario, pulse 2 para volver a introducir\n</speak>"
+      },
+      "Identifier": "8f9bc36f-859f-4804-9878-fc94e95fb47d",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "2234bda4-9275-4b96-a0cc-8cda07127e9a",
+        "Conditions": [
+          {
+            "NextAction": "70575968-2a09-4c4e-bdb9-e346146e97ea",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          },
+          {
+            "NextAction": "2234bda4-9275-4b96-a0cc-8cda07127e9a",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "2234bda4-9275-4b96-a0cc-8cda07127e9a",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "2234bda4-9275-4b96-a0cc-8cda07127e9a",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "2234bda4-9275-4b96-a0cc-8cda07127e9a",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SSML": "<speak>\n<break time =\"600ms\"/>\n\n</speak>"
+      },
+      "Identifier": "e2215b9f-4ae3-4a9f-a87f-8f26c14ae659",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "3b50d867-64e9-4f2d-bbb8-02c7b29996a5",
+        "Errors": [
+          {
+            "NextAction": "3b50d867-64e9-4f2d-bbb8-02c7b29996a5",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "<speak>Introduzca su número de cuenta.</speak>",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "20"
+          }
+        }
+      },
+      "Identifier": "ae84ddbb-3312-4be1-8bbb-644d68cfec13",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "226746e0-de4b-4b72-acff-8d926f0b2150",
+        "Errors": [
+          {
+            "NextAction": "226746e0-de4b-4b72-acff-8d926f0b2150",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "<speak>\nPara un procesamiento más rápido, y si conoce su número de cuenta y desea facilitarlo,\npor favor, pulse 1.\n<break time =\"400ms\"/>\nDe lo contrario, pulse 2, para ser conectado directamente con un representante.\n</speak>"
+      },
+      "Identifier": "3b50d867-64e9-4f2d-bbb8-02c7b29996a5",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "3786cef7-cd96-48d6-aecd-432ac3115f19",
+        "Conditions": [
+          {
+            "NextAction": "ae84ddbb-3312-4be1-8bbb-644d68cfec13",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          },
+          {
+            "NextAction": "3786cef7-cd96-48d6-aecd-432ac3115f19",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "3786cef7-cd96-48d6-aecd-432ac3115f19",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "3786cef7-cd96-48d6-aecd-432ac3115f19",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "3786cef7-cd96-48d6-aecd-432ac3115f19",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "922a1cc7-dee1-4f5c-8f0e-1cc5eb909119",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "LoopCount": "3"
+      },
+      "Identifier": "88bdf6b8-bdae-42b3-9f51-579bd428c920",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "1c293578-fbe2-4897-ae03-f1b1b7fd6de2",
+        "Conditions": [
+          {
+            "NextAction": "1c293578-fbe2-4897-ae03-f1b1b7fd6de2",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "1c293578-fbe2-4897-ae03-f1b1b7fd6de2",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Department": "Support"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "d84da5ec-4b5f-454d-b160-ca12e60061f1",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "f8a40e5a-3784-4416-8b6b-8326d6b6359a",
+        "Errors": [
+          {
+            "NextAction": "f8a40e5a-3784-4416-8b6b-8326d6b6359a",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Department": "Billing"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "2682f89f-a7c9-456c-8e16-bc903b7289b8",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "b9f3c5bb-0008-4fd2-921f-6b526301841a",
+        "Errors": [
+          {
+            "NextAction": "b9f3c5bb-0008-4fd2-921f-6b526301841a",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerQueue": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/contact-flow/f59b1a0b-e618-4316-8d3c-393934a1e6d2"
+        }
+      },
+      "Identifier": "4bc86b50-4d80-4d30-88e8-10734f042c18",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "1c293578-fbe2-4897-ae03-f1b1b7fd6de2",
+        "Errors": [
+          {
+            "NextAction": "1c293578-fbe2-4897-ae03-f1b1b7fd6de2",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "<speak>\nTe has comunicado con kafui Connect Services, <break time=\"400ms\"/>para asegurar la calidad del servicio, esta llamada puede ser monitoreada o grabada.\n\nSi está llamando por o para soporte, por favor recuerde, el soporte es sólo para clientes de Enhanced care.\n\nPara solicitar asistencia, pulse 1.\n<break time=\"400ms\"/>\n\nPara facturación, pulse 2\n\n</speak>\n\n"
+      },
+      "Identifier": "1c293578-fbe2-4897-ae03-f1b1b7fd6de2",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "88bdf6b8-bdae-42b3-9f51-579bd428c920",
+        "Conditions": [
+          {
+            "NextAction": "d84da5ec-4b5f-454d-b160-ca12e60061f1",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          },
+          {
+            "NextAction": "2682f89f-a7c9-456c-8e16-bc903b7289b8",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "88bdf6b8-bdae-42b3-9f51-579bd428c920",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "88bdf6b8-bdae-42b3-9f51-579bd428c920",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "88bdf6b8-bdae-42b3-9f51-579bd428c920",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SSML": "<speak>\n<break time =\"600ms\"/>\nPor favor, espere mientras le transferimos a un representante de $.Attributes.Department.\n\n</speak>"
+      },
+      "Identifier": "f8a40e5a-3784-4416-8b6b-8326d6b6359a",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "7a8f6592-6ab7-4982-8be8-2976510588d3",
+        "Errors": [
+          {
+            "NextAction": "7a8f6592-6ab7-4982-8be8-2976510588d3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "fc63eb4f-778c-4936-8fd3-22589bb10135",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "922a1cc7-dee1-4f5c-8f0e-1cc5eb909119",
+        "Errors": [
+          {
+            "NextAction": "922a1cc7-dee1-4f5c-8f0e-1cc5eb909119",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "922a1cc7-dee1-4f5c-8f0e-1cc5eb909119",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/queue/a3a3c677-4543-4e77-9ecf-fd4fff9d4905"
+      },
+      "Identifier": "7a8f6592-6ab7-4982-8be8-2976510588d3",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "fc63eb4f-778c-4936-8fd3-22589bb10135",
+        "Errors": [
+          {
+            "NextAction": "fc63eb4f-778c-4936-8fd3-22589bb10135",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "20577223-76c4-4c45-9f2b-047267f002e8",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "d0354306-95fa-412b-8d78-05ee6a49a229",
+        "Errors": [
+          {
+            "NextAction": "d0354306-95fa-412b-8d78-05ee6a49a229",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "d0354306-95fa-412b-8d78-05ee6a49a229",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SSML": "<speak>\nPor favor espere mientras le conectamos con un representante de soporte de $.Attributes.Department.\n</speak>"
+      },
+      "Identifier": "70575968-2a09-4c4e-bdb9-e346146e97ea",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "df428e89-f201-429a-adf8-5531fed348d9",
+        "Errors": [
+          {
+            "NextAction": "df428e89-f201-429a-adf8-5531fed348d9",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SSML": "<speak>\nPor favor espere mientras le conectamos con un representante de soporte de $.Attributes.Department .\n</speak>"
+      },
+      "Identifier": "3786cef7-cd96-48d6-aecd-432ac3115f19",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "df428e89-f201-429a-adf8-5531fed348d9",
+        "Errors": [
+          {
+            "NextAction": "df428e89-f201-429a-adf8-5531fed348d9",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/queue/7969faf9-4857-491b-98af-2205b466cae8"
+      },
+      "Identifier": "df428e89-f201-429a-adf8-5531fed348d9",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "20577223-76c4-4c45-9f2b-047267f002e8",
+        "Errors": [
+          {
+            "NextAction": "20577223-76c4-4c45-9f2b-047267f002e8",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}

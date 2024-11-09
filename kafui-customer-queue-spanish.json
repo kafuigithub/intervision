@@ -19,24 +19,6 @@
           "y": 564.8
         }
       },
-      "b774e3a1-4422-49a5-af6e-71945df024d0": {
-        "position": {
-          "x": 743.2,
-          "y": 28.8
-        }
-      },
-      "f7af8989-c55e-49f3-9604-32d5d6c3d80a": {
-        "position": {
-          "x": 1004.8,
-          "y": 28
-        },
-        "parameters": {
-          "PromptId": {
-            "displayName": "Beep.wav"
-          }
-        },
-        "promptName": "Beep.wav"
-      },
       "84232e1e-8454-49cd-90fa-12f1e6f34184": {
         "position": {
           "x": 1246.4,
@@ -68,22 +50,10 @@
         },
         "conditionMetadata": [
           {
-            "id": "b42824e8-6eda-4598-a7d2-a87a92c41c7e",
+            "id": "c41bd96a-4bdd-426c-a013-771b22037864",
             "value": "1"
           }
         ]
-      },
-      "fc6c0b1a-c6db-430b-a9f5-572f70fd285f": {
-        "position": {
-          "x": 468.8,
-          "y": 22.4
-        },
-        "parameters": {
-          "PromptId": {
-            "displayName": "Beep.wav"
-          }
-        },
-        "promptName": "Beep.wav"
       },
       "ac7031f1-4edd-448c-b5b3-1c8a948d8394": {
         "position": {
@@ -170,11 +140,11 @@
         },
         "conditionMetadata": [
           {
-            "id": "2c1e3353-6fa3-4bc9-bc13-84280d5a05b7",
+            "id": "f4e0c332-a310-4dd7-80bf-15d7a0a40820",
             "value": "1"
           },
           {
-            "id": "28b8929d-0dd0-4bc6-807e-b6a17d615c51",
+            "id": "0646125e-2164-41f3-93f6-2c3c091677fc",
             "value": "2"
           }
         ]
@@ -202,11 +172,11 @@
         },
         "conditionMetadata": [
           {
-            "id": "2ea046e8-be50-40e8-86d6-27b65bd62953",
+            "id": "ddf4906b-700c-402c-8c30-77417d661bea",
             "value": "1"
           },
           {
-            "id": "1954970c-68b1-4428-b312-44ecea715c3a",
+            "id": "c72cb614-a41b-454b-9997-06ca692542dd",
             "value": "2"
           }
         ]
@@ -218,11 +188,11 @@
         },
         "conditionMetadata": [
           {
-            "id": "f0a658e8-8011-4bcd-b39f-7a67de16607b",
+            "id": "2848af67-a8fe-46fe-b64f-f417ef6f4b27",
             "value": "1"
           },
           {
-            "id": "1d46f03b-ea23-4072-b7b1-0c89b7fab901",
+            "id": "963c6227-f744-49cf-848a-8916b1e59b87",
             "value": "2"
           }
         ]
@@ -258,10 +228,40 @@
         },
         "conditionMetadata": [],
         "countryCodePrefix": "+1"
+      },
+      "f7af8989-c55e-49f3-9604-32d5d6c3d80a": {
+        "position": {
+          "x": 1004.8,
+          "y": 28
+        },
+        "parameters": {
+          "PromptId": {
+            "displayName": "Beep.wav"
+          }
+        },
+        "promptName": "Beep.wav"
+      },
+      "fc6c0b1a-c6db-430b-a9f5-572f70fd285f": {
+        "position": {
+          "x": 468.8,
+          "y": 22.4
+        },
+        "parameters": {
+          "PromptId": {
+            "displayName": "Beep.wav"
+          }
+        },
+        "promptName": "Beep.wav"
+      },
+      "b774e3a1-4422-49a5-af6e-71945df024d0": {
+        "position": {
+          "x": 743.2,
+          "y": 28.8
+        }
       }
     },
     "Annotations": [],
-    "name": "interVision-customer-queue-spanish",
+    "name": "kafui-customer-queue-spanish",
     "description": "",
     "type": "customerQueue",
     "status": "published",
@@ -300,38 +300,6 @@
                 "DoneLooping"
               ]
             }
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "SSML": "<speak>\nEncontrará ayuda en nuestro sitio web, w w w punto InterVision connect punto com.\n</speak>"
-      },
-      "Identifier": "b774e3a1-4422-49a5-af6e-71945df024d0",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "f7af8989-c55e-49f3-9604-32d5d6c3d80a",
-        "Errors": [
-          {
-            "NextAction": "f7af8989-c55e-49f3-9604-32d5d6c3d80a",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
-      },
-      "Identifier": "f7af8989-c55e-49f3-9604-32d5d6c3d80a",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "84232e1e-8454-49cd-90fa-12f1e6f34184",
-        "Errors": [
-          {
-            "NextAction": "84232e1e-8454-49cd-90fa-12f1e6f34184",
-            "ErrorType": "NoMatchingError"
           }
         ]
       }
@@ -430,22 +398,6 @@
           },
           {
             "NextAction": "104b8709-e2cc-46aa-977e-49906619201d",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
-      },
-      "Identifier": "fc6c0b1a-c6db-430b-a9f5-572f70fd285f",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "b774e3a1-4422-49a5-af6e-71945df024d0",
-        "Errors": [
-          {
-            "NextAction": "b774e3a1-4422-49a5-af6e-71945df024d0",
             "ErrorType": "NoMatchingError"
           }
         ]
@@ -879,6 +831,54 @@
           {
             "NextAction": "365c6186-d4fe-4b28-b5ec-bbcdd9cd1fd4",
             "ErrorType": "InvalidPhoneNumber"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
+      },
+      "Identifier": "f7af8989-c55e-49f3-9604-32d5d6c3d80a",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "84232e1e-8454-49cd-90fa-12f1e6f34184",
+        "Errors": [
+          {
+            "NextAction": "84232e1e-8454-49cd-90fa-12f1e6f34184",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
+      },
+      "Identifier": "fc6c0b1a-c6db-430b-a9f5-572f70fd285f",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "b774e3a1-4422-49a5-af6e-71945df024d0",
+        "Errors": [
+          {
+            "NextAction": "b774e3a1-4422-49a5-af6e-71945df024d0",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SSML": "<speak>\nEncontrará ayuda en nuestro sitio web, w w w punto kafui connect punto com.\n</speak>"
+      },
+      "Identifier": "b774e3a1-4422-49a5-af6e-71945df024d0",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "f7af8989-c55e-49f3-9604-32d5d6c3d80a",
+        "Errors": [
+          {
+            "NextAction": "f7af8989-c55e-49f3-9604-32d5d6c3d80a",
+            "ErrorType": "NoMatchingError"
           }
         ]
       }

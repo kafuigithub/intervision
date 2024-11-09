@@ -73,11 +73,11 @@
         },
         "conditionMetadata": [
           {
-            "id": "9f791d58-4fbb-4a5f-95d7-5f2fed6a1427",
+            "id": "d2bd44bf-5e54-4a1a-9689-860906c3bf19",
             "value": "1"
           },
           {
-            "id": "ff9af2f2-eb5c-4e9f-9cfe-0c7bf81e93d5",
+            "id": "0b45d268-da6d-45df-a414-6070e54f3cb3",
             "value": "2"
           }
         ]
@@ -101,11 +101,11 @@
         },
         "conditionMetadata": [
           {
-            "id": "543b15f2-324c-473a-b3f0-ac772689f059",
+            "id": "3fa121b9-d06e-43bd-b42c-4393b1d8dc0b",
             "value": "1"
           },
           {
-            "id": "c4db3efe-ec87-42e3-bb51-53b96c01fb9b",
+            "id": "63e8357f-58a5-4c91-8e1d-d5da3d5f18bd",
             "value": "2"
           }
         ]
@@ -164,11 +164,11 @@
         },
         "conditionMetadata": [
           {
-            "id": "4f7085a1-6e0e-4d01-8d1f-8547b801c9dc",
+            "id": "a5f1fb3d-0c63-4fa2-9d4c-1ee58721db60",
             "value": "1"
           },
           {
-            "id": "024849cc-a5b7-4932-a5b9-43d63cfe112a",
+            "id": "7462425e-c13d-48af-a495-707a28609315",
             "value": "2"
           }
         ]
@@ -180,10 +180,36 @@
         },
         "conditionMetadata": [
           {
-            "id": "3fe1b32b-eba0-4cb0-9af4-065702edf74e",
+            "id": "c212477c-fbb5-4358-9d7c-2e9c21be30aa",
             "value": "1"
           }
         ]
+      },
+      "bd3f4d14-e3fe-438c-bc69-197221ef59e3": {
+        "position": {
+          "x": 2260,
+          "y": -388.8
+        }
+      },
+      "e6c85d08-8853-49bf-b73e-ad5842e6b865": {
+        "position": {
+          "x": 2616,
+          "y": -1149.6
+        },
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "d8a2ccc0-0778-4d8f-a381-e3f5322096a2": {
+        "position": {
+          "x": 2967.2,
+          "y": -1471.2
+        }
+      },
+      "52e1d343-c4ed-4893-802c-6ea5dfce36c3": {
+        "position": {
+          "x": 3176,
+          "y": -888.8
+        }
       },
       "02fc71f1-36d8-4464-bb5c-827a35d09089": {
         "position": {
@@ -232,36 +258,10 @@
           "x": 239.2,
           "y": -32
         }
-      },
-      "bd3f4d14-e3fe-438c-bc69-197221ef59e3": {
-        "position": {
-          "x": 2260,
-          "y": -388.8
-        }
-      },
-      "e6c85d08-8853-49bf-b73e-ad5842e6b865": {
-        "position": {
-          "x": 2616,
-          "y": -1149.6
-        },
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "d8a2ccc0-0778-4d8f-a381-e3f5322096a2": {
-        "position": {
-          "x": 2967.2,
-          "y": -1471.2
-        }
-      },
-      "52e1d343-c4ed-4893-802c-6ea5dfce36c3": {
-        "position": {
-          "x": 3176,
-          "y": -888.8
-        }
       }
     },
     "Annotations": [],
-    "name": "interVision-customer-queue-english",
+    "name": "kafui-customer-queue-english",
     "description": "",
     "type": "customerQueue",
     "status": "published",
@@ -711,86 +711,6 @@
     },
     {
       "Parameters": {
-        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
-      },
-      "Identifier": "02fc71f1-36d8-4464-bb5c-827a35d09089",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "590cebda-155d-4e23-b4e1-e52ea71ae9a5",
-        "Errors": [
-          {
-            "NextAction": "590cebda-155d-4e23-b4e1-e52ea71ae9a5",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "SSML": "<speak>\nIf you are interested in upgrading your service, let the agent know and they can assist you.\n</speak>"
-      },
-      "Identifier": "cde1f5d4-7eb2-4c95-bce1-3d9edabb0125",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "02fc71f1-36d8-4464-bb5c-827a35d09089",
-        "Errors": [
-          {
-            "NextAction": "02fc71f1-36d8-4464-bb5c-827a35d09089",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
-      },
-      "Identifier": "1b0d63f0-4996-45bc-926f-575d9c65daae",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "414ba023-474a-4cd8-9802-1ddaabcfbcdf",
-        "Errors": [
-          {
-            "NextAction": "414ba023-474a-4cd8-9802-1ddaabcfbcdf",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
-      },
-      "Identifier": "3acf6e85-f20c-4dc8-b5aa-bf361e2933f0",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "cde1f5d4-7eb2-4c95-bce1-3d9edabb0125",
-        "Errors": [
-          {
-            "NextAction": "cde1f5d4-7eb2-4c95-bce1-3d9edabb0125",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "Text": "<speak>\nHelp can be found on our website at, w w w dot InterVision connect dot com.\n</speak>"
-      },
-      "Identifier": "414ba023-474a-4cd8-9802-1ddaabcfbcdf",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "3acf6e85-f20c-4dc8-b5aa-bf361e2933f0",
-        "Errors": [
-          {
-            "NextAction": "3acf6e85-f20c-4dc8-b5aa-bf361e2933f0",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
         "LoopCount": "3"
       },
       "Identifier": "bd3f4d14-e3fe-438c-bc69-197221ef59e3",
@@ -878,6 +798,86 @@
         "Errors": [
           {
             "NextAction": "bd3f4d14-e3fe-438c-bc69-197221ef59e3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
+      },
+      "Identifier": "02fc71f1-36d8-4464-bb5c-827a35d09089",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "590cebda-155d-4e23-b4e1-e52ea71ae9a5",
+        "Errors": [
+          {
+            "NextAction": "590cebda-155d-4e23-b4e1-e52ea71ae9a5",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SSML": "<speak>\nIf you are interested in upgrading your service, let the agent know and they can assist you.\n</speak>"
+      },
+      "Identifier": "cde1f5d4-7eb2-4c95-bce1-3d9edabb0125",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "02fc71f1-36d8-4464-bb5c-827a35d09089",
+        "Errors": [
+          {
+            "NextAction": "02fc71f1-36d8-4464-bb5c-827a35d09089",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
+      },
+      "Identifier": "1b0d63f0-4996-45bc-926f-575d9c65daae",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "414ba023-474a-4cd8-9802-1ddaabcfbcdf",
+        "Errors": [
+          {
+            "NextAction": "414ba023-474a-4cd8-9802-1ddaabcfbcdf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "PromptId": "arn:aws:connect:us-east-1:648867426675:instance/79aff55a-4292-4084-b52b-3bc8924aa7e7/prompt/6e4de2cd-5379-4c87-bfac-10556c9ff212"
+      },
+      "Identifier": "3acf6e85-f20c-4dc8-b5aa-bf361e2933f0",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "cde1f5d4-7eb2-4c95-bce1-3d9edabb0125",
+        "Errors": [
+          {
+            "NextAction": "cde1f5d4-7eb2-4c95-bce1-3d9edabb0125",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "<speak>\nHelp can be found on our website at, w w w dot kafui connect dot com.\n</speak>"
+      },
+      "Identifier": "414ba023-474a-4cd8-9802-1ddaabcfbcdf",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "3acf6e85-f20c-4dc8-b5aa-bf361e2933f0",
+        "Errors": [
+          {
+            "NextAction": "3acf6e85-f20c-4dc8-b5aa-bf361e2933f0",
             "ErrorType": "NoMatchingError"
           }
         ]
